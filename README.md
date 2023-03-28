@@ -2,7 +2,7 @@
 
 ![appicon](https://user-images.githubusercontent.com/96004385/228344417-a6934cdb-7548-42ea-aaea-2cedecc50f99.png)
 
-Android app for tracking Space X data
+Android app for tracking Space X data.
 Application is using open source [Space X REST API](https://github.com/r-spacex/SpaceX-API/tree/master/docs) for getting all data.
 
 ## Screenshots
