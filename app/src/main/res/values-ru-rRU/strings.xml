@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SpaceX App</string>
+    <string name="date_of_launch">Дата запуска: %s</string>
+    <string name="date_of_launch_detail">Дата и время запуска:\n%s</string>
+    <string name="flights_repition">Кол-во использований 1-й ступени: %s</string>
+    <string name="status">Статус миссии: %s</string>
+    <string name="details">Детали:</string>
+    <string name="crew_list">Члены экипажа:</string>
+    <string name="crew_agency">Агенство: %s</string>
+    <string name="crew_status">Статус: %s</string>
+    <string name="no_data">Нет данных</string>
+    <string name="success">Успешно</string>
+    <string name="failure">Неуспешно</string>
+    <string name="active">Активный</string>
+    <string name="inactive">Не активный</string>
+</resources>

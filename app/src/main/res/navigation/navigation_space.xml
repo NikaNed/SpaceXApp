@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_space"
+    app:startDestination="@id/launchesFragment">
+
+    <fragment
+        android:id="@+id/launchesFragment"
+        android:name="com.example.spacexapp.presentation.LaunchesFragment"
+        android:label="LaunchesFragment">
+        <action
+            android:id="@+id/action_launchesFragment_to_launchesDetailFragment"
+            app:destination="@id/launchesDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/launchesDetailFragment"
+        android:name="com.example.spacexapp.presentation.LaunchesDetailFragment"
+        android:label="LaunchesDetailFragment" >
+        <argument
+            android:name="flight_number"
+            app:argType="string" />
+        <argument
+            android:name="id"
+            app:argType="string" />
+    </fragment>
+</navigation>

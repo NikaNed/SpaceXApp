@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SpaceX App</string>
+    <string name="date_of_launch">Date of launch: %s</string>
+    <string name="date_of_launch_detail">Date of launch:\n%s</string>
+    <string name="flights_repition">First stage repetitions: %s</string>
+    <string name="status">Status of mission: %s</string>
+    <string name="details">Details:</string>
+    <string name="crew_list">Crew:</string>
+    <string name="crew_agency">Agency: %s</string>
+    <string name="crew_status">Status: %s</string>
+    <string name="no_data">No data</string>
+    <string name="success">Success</string>
+    <string name="failure">Failure</string>
+    <string name="active">Active</string>
+    <string name="inactive">No active</string>
+</resources>
