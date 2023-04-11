@@ -32,7 +32,7 @@ class LaunchesDetailFragment : Fragment() {
     @Inject
     lateinit var viewModelFactory: ViewModelFactory
 
-    private lateinit var viewModel: LaunchesViewModel
+    private lateinit var viewModel: DetailViewModel
     private lateinit var adapter: CrewAdapter
 
     override fun onAttach(context: Context) {
@@ -52,7 +52,7 @@ class LaunchesDetailFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         viewModel = ViewModelProvider(requireActivity(),
-            viewModelFactory)[LaunchesViewModel::class.java]
+            viewModelFactory)[DetailViewModel::class.java]
         val flightNumber = args.flightNumber
         viewModel.getDetail(flightNumber)
 

@@ -16,3 +16,4 @@ class ViewModelFactory @Inject constructor(
         return viewModelProvider[modelClass]?.get() as T
     }
 }
+
