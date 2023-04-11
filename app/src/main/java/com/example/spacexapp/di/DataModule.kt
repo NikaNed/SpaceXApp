@@ -13,7 +13,7 @@ interface DataModule {
 
     @Binds
     @ApplicationScope
-    fun bindPhoneRepository(impl: SpaceXRepositoryImpl): SpaceXRepository
+    fun bindSpaceXRepository(impl: SpaceXRepositoryImpl): SpaceXRepository
 
     companion object {
 
@@ -24,3 +24,4 @@ interface DataModule {
         }
     }
 }
+
